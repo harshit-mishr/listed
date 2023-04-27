@@ -1,0 +1,310 @@
+.container{
+    display: flex;
+    box-sizing: border-box;
+    background-color:rgba(245, 245, 245, 1);
+  }
+  
+  
+  
+  .left{
+    background-color: black;
+    height: 97.621vh;
+    width: 17.5rem;
+    margin: 2.5rem 0rem 2.5rem 2.5rem;
+    border-radius: 1.875rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding:4vh 0vw 0vh 4vw
+  }
+  .left h2{
+    line-height: 15vh;
+    font-size: 2.25rem;
+  }
+  
+  .left p{
+    line-height: 7vh;
+    font-size: 1.125em;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-family: 'Montserrat'
+
+  }
+
+  .menuIcon {
+    font-size: 1.5rem;
+  }
+
+  .connectUs{
+    margin-top: 28vh;
+  }
+  .connectUs p{
+    line-height: 4vh;
+  }
+
+  .dashboardHead{
+    font-weight: 700;
+  }
+  .rightContainer{
+    flex: 3;
+  
+  }
+  
+  .dashboard{
+    margin: 3.75rem 3.75rem 3.75rem 5rem;
+  }
+  
+  .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .heading h1{
+    font-size: 1.5em;
+  }
+  
+  .avatarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22vw;
+  }
+  
+  .avatarContainer img{
+    /* width: 1.125rem; */
+    height: 1.875rem;
+    border-radius: 50%;
+  }
+  .searchBarContainer{
+    display: flex;
+    align-items: center;
+    height: 1.876rem;
+    /* width: 11.25rem; */
+   background-color: white;
+   padding-right: 1rem;
+   border-radius: 0.625rem;
+  
+  }
+  .searchBarContainer input {
+    height: 1.875rem;
+    padding-left: 0.938rem;
+    background-color: white;
+    border: none;
+    border-radius: 0.625rem;
+  }
+  
+  .bellIcon{
+    font-size: 1.5em;
+  }
+  
+  .card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+  }
+  
+  .card1, .card2, .card3, .card4{
+    height: 12.4vh;
+    width: 15vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .card1{
+    background-color: #DDEFE0;
+  }
+  
+  .card2{
+    background-color:#F4ECDD;
+  }
+  
+  .card3{
+    background-color: #EFDADA;
+  }
+  
+  .card4{
+    background-color: #DEE0EF;
+  }
+
+  .icon{
+    font-size: 1.5rem;
+  }
+  
+  .title{
+    font-size: 0.875rem;
+    margin-top: 0.8rem;
+    /* height: 1vh; */
+    /* border: 1px solid; */
+  }
+  .line{
+    height: 37.125vh;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 3vh;
+    padding-left: 2rem  ;
+  }
+  
+  .chart{
+    height:26.47vh;
+    display: flex;
+    gap: 2vw;
+  }
+  
+  .pie, .today{
+    height: 30.47vh;
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 2.2rem 0rem 2rem 2.5rem;
+  }
+
+  .pie{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .pieGraph{
+    height: 1vh;
+    /* border: 1px solid red; */
+    border: none;
+  }
+
+  .labels{
+    /* border: 1px solid brown; */
+    
+  }
+  .labels h2{
+    font-size: 1.125rem;
+    /* border: 1px solid; */
+
+  }
+  .labelContainer{
+    /* border: 1px solid rgb(93, 0, 255); */
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .label{
+ font-weight: 700;
+ line-height: 3vh;
+ display: flex;
+ flex-direction: column;
+ /* align-items: center; */
+ /* justify-content: flex-start; */
+ /* border: 1px solid red; */
+  }
+
+  .label li{
+    color: rgba(152, 216, 158, 1);
+    font-size: 2rem;
+  }
+   #month{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.75rem;
+    color: #858585;
+  }
+  
+  .percent{
+    font-size: 0.8rem;
+    font-weight: 200;
+    /* float: left; */
+    margin-left: 3vw;
+    color: #858585;
+  }
+
+  .today{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* padding: rem; */
+  }
+ 
+
+  .todayHeading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.8rem;
+  }
+
+  .todayHeading h3{
+    
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 1.125rem;
+line-height: 1.375rem;
+  }
+  .todayHeading p{
+    color : rgba(133, 133, 133, 1);
+    font-size: 0.938rem;
+    /* border: 1px solid; */
+    width: 4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .meetDiv{
+    border-left: 0.4rem solid rgba(155, 221, 124, 1);
+    padding: 0.5rem;
+    margin-bottom: 0.8rem;
+  }
+  .meetDiv1{
+    border-left: 0.4rem solid rgba(105, 114, 195, 1);
+    padding: 0.5rem;
+  
+  }
+  .meet{
+    font-size:1.063em;
+    color:rgba(102, 102, 102, 1);
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+
+line-height: 1.063rem;
+    
+  }
+
+  .meetPara{
+    color:rgba(102, 102, 102, 1);
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 0.85rem;
+word-spacing: 0.1rem;
+/* line-height: 0.1rem; */
+  }
+
+  .lineChart{
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+      
+      }
+   
+      .lineGraph{
+        /* border: 1px solid blue; */
+        width: 95%;
+
+        height: 28vh;
+      }
+  
+  .activity{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.125rem;
+   
+  }
+
+  .date{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 0.875rem;
+    /* line-height: 17px; */
+    color: #858585;
+    }
